@@ -109,3 +109,14 @@ mybox.modifiers[#Smooth].smoothingBits = 1
 select mybox
 -- 转化为可编辑多边形
 macros.run "Modifier Stack" "Convert_to_Poly"
+
+/*
+-- 解组
+select #($cup, $Star002, $Star001)
+actionMan.executeAction 0 "40141"  -- Groups: 解组
+*/
+/*
+--建组
+select #($Star002, $Star001)
+actionMan.executeAction 0 "40140"  -- Groups: 组
+*/
